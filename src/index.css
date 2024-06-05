@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #3D342F, #FFFFFF);
+  font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    overflow-x: hidden;
+    padding: 30px 0 0 0;
+  }
+}
+
+.glow {
+  box-shadow: 0px 0px 30px 20px #fff;
+}
+
+.shadowtext {
+  text-shadow: 4px 4px #000000;
+}
+
+.bg-nav {
+  background: url(/assets/img/bg-navbar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-section1 {
+  background: url(/assets/img/bg-section1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-section2 {
+  background: url(/assets/img/bg-section2.jpg);
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+}
